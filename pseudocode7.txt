@@ -1,0 +1,12 @@
+begin
+numeric num
+print("enter num value");
+input num
+if(age>=18)
+{
+print("eligible for voting")
+}
+else{
+print("Not eligible for voting")
+}
+end

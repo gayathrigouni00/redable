@@ -1,0 +1,12 @@
+begin
+numeric employsalary,bill1,bill2,bill3,total,%of amount;
+print("enter bill1,bill2,bill3,employ salary");
+inputbill1
+inputbill2
+inputbill3
+inputemploysalary
+total shopping amount=bill1+bill2+bill3 
+print("Shopping amount is",total);
+% of amount=((Total shopping amount)/(employee salary))*100
+print("% of amount is",%amount);
+end

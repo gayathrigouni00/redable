@@ -1,0 +1,11 @@
+begin
+numeric num
+print("enter number to check it is positive or negative");
+input num
+if(num>0){
+print(num,"is positive number");
+}
+else{
+print(num,"is negative number");
+}
+end

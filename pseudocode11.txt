@@ -1,0 +1,26 @@
+begin
+numeric projectscore,internalscore,external score
+print("enter project,external,internal score");
+input project score
+input external score
+input internal score
+if(project>=50&&external>=50&&internal>=50)
+{
+total=((70*project score)/100+(20*external score)/100+(10*internal score)/100)
+if(total>=90){
+print("A grade")}
+else if(total>=70){
+print("B grade")
+}
+else if(total>=50){
+print("C grade")}
+}
+else{
+if(project score<50){
+print("failed in project and score is",project score);}
+if(external score<50){
+print("failed in external and score is",external score);}
+if(internal score<50){
+print("failed in internal and score is",internal score);}
+}
+end

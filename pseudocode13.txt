@@ -1,0 +1,23 @@
+begin
+numeric units,bill
+print("enter units to generate bill");
+input units
+if(unit<=50)
+{
+bill=unit*4.20;
+}
+else if(unit<=150)
+{
+bill=(50*4.20)+(100*5.67)+((units-100)*8.90)}
+else if(unit<=250)
+{
+bill=(50*4.20)+(100*5.67)+(100*8.90)+((units-250)*9.50)
+}
+else
+{
+bill=(50*4.20)+(100*5.67)+(100*8.90)+((units-250)*9.50)
+}
+print("bill without GST:",bill);
+bill=bill+((bill*18)/100)
+print("bill with GST:",bill)
+end

@@ -1,0 +1,10 @@
+begin
+numeric basic salary,gross salary;
+print(enter basic salary);
+input basic salary
+hra=(basic salary/100)*56
+da=(basic salary/100)*78
+gross salary =(basic salary+hra+da)
+print(gross salary);
+end
+

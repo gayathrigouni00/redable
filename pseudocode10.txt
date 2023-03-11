@@ -1,0 +1,24 @@
+begin
+numeric five,two,one,amount
+print("Enter withdraw amount")
+input amount
+if(amount%100==0){
+if(amount>=500){
+five=(amount/500)
+amount=amount%500
+print("500 rupees notes are",five)
+}
+if(amount>=200){
+five=(amount/200)
+amount=amount%200
+print("200 rupees notes are",two)
+}
+if(amount>=100){
+five=(amount/100)
+print("100 rupees notes are",one)
+}
+else
+{
+print("please enter multiples of 100 only");
+}
+end
