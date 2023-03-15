@@ -1,0 +1,11 @@
+begin
+numeric num
+print("enter a number it is leap year or not");
+inputnum
+if(num%4==0 && num%100!=0){
+print("the number is leapyear");
+}
+else{
+print("the number is not leap year");
+}
+end

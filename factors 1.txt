@@ -1,0 +1,14 @@
+begin 
+numeric i=1,factors
+print(enter number)
+input num
+if(num>=i)
+{
+while(num%i==0)
+{ 
+print(factors)
+i++
+}
+else
+(no factors)
+}

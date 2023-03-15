@@ -1,0 +1,11 @@
+begin
+numeric i=1;
+input n=10,
+while(i<=n/2)
+if(n%i==0)
+print(not prime number)
+else{
+print( a prime number)
+}
+i++
+end
