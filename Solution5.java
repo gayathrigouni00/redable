@@ -1,23 +1,49 @@
 import java.util.Scanner;
 public class Solution5{
-public static void main(String args[])
+double bal;
+public BankAccount(double initialBalance){
+this.bal=initialbal;
+}
+public void deposite(double amount){
+ bal=bal+amount;
+}
+public void withdraw(double amount){
+if(amount>bal){
+bal=bal-amount;
+}
+}
+public double getBalance(){
+return balance;
+}
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+Solution5 obj=newSolution5();
+int option=0;
+do{
+System.out.println("enter 1 to deposite");  
+System.out.println("enter 2 to withdraw"); 
+System.out.println("enter 3 to check"); 
+System.out.println("enter 0 to return"); 
+option=sc.nextInt();
+Switch(option);
 {
- Scanner sc=new Scanner(System.in);
- System.out.println("enter a string");
- String str=sc.nextLine();
-  String str1=sc.nextLine();
-  String str2=sc.nextLine();
-  System.out.println("even index characters positions followed by odd index positions");
-  for(int i=0;i<str.length();i++)
-  {
-  if(i%2==0)
-  { System.out.println("even index positions"+str1);
-  }
-  if(i%2!=0)
-  {
-    System.out.println("odd index positions"+str2);
-  }
-  System.out.println("repstr with even and odd index positions");
-  }
-  }
+Case1:{
+System.out.println("enter amount to deposite");
+double b=sc.nextDouble();
+obj.deposite(d);
+break;
+}
+Case2:{
+System.out.println("withdraw the amount"); 
+double b=sc.nextDouble();
+obj.withdraw(w);
+break;
+}
+Case3:{
+ System.out.println("check the amount"); 
+double b=sc.nextDouble();
+obj.withdraw(c);   
+}
+}
+}
 }
